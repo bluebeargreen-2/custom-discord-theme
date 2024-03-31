@@ -1,8 +1,8 @@
-@import url("https://minidiscordthemes.github.io/SettingsIcons/SettingsIcons.theme.css");
+@import "other/quick.css";
+@import "required";
 
-@import "other/SettingsModal.theme.css";
-@import "other/Material-Discord.theme.css";
-@import "other/RadialStatus.theme.css";
-@import "other/AcrylicPopups.theme.css";
+@import "other/3rdParty.css";
 
+@import "SEELE1360/comboBubbles.css";
+@import "SEELE1360/timestampBubbles.css";
 
