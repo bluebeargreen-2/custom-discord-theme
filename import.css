@@ -1,13 +1,61 @@
-@import url("https://github.com/bluebeargreen-2/custom-discord-theme/raw/main/Messages/username.css");
-
 @import url("https://raw.githubusercontent.com/bluebeargreen-2/custom-discord-theme/main/SettingsModal.theme.css");
-
 @import url("https://raw.githubusercontent.com/bluebeargreen-2/custom-discord-theme/main/Material-Discord.theme.css");
-
 @import url("https://raw.githubusercontent.com/bluebeargreen-2/custom-discord-theme/main/RadialStatus.theme.css");
-
 @import url("https://raw.githubusercontent.com/bluebeargreen-2/custom-discord-theme/main/AcrylicPopups.theme.css");
-
 @import url("https://minidiscordthemes.github.io/SettingsIcons/SettingsIcons.theme.css");
 
+/*
 @import url("https://github.com/bluebeargreen-2/custom-discord-theme/raw/main/Messages/chatBubbles.css");
+@import url("https://github.com/bluebeargreen-2/custom-discord-theme/raw/main/Messages/username.css");
+*/
+
+/* ShowMeYourName plugin */
+.vc-smyn-suffix:before {
+    content: "| @" !important
+}
+.vc-smyn-suffix:after {
+    content: "" !important
+}
+.vc-smyn-suffix {
+    color: currentColor !important;
+    opacity: 0.5
+}
+/* Username */
+.username__0b0e7, 
+.base__06abc .text_eb454c strong, 
+.name__084dd {
+    background: color-mix(in srgb, currentColor 25%, rgba(0, 0, 0, 0.25));
+    text-shadow: 0 0 5px color-mix(in srgb, currentColor 25%, rgb(0, 0, 0));
+    filter: brightness(1.25);
+    margin-right: 4px;
+    padding: 0 4px;
+    border-radius: 4px;
+}
+.username__0b0e7::after {
+    position: relative;
+    margin: 0 0 0 8px;
+    color: inherit;
+    text-shadow: 0 0 5px black;
+}
+.contents_d3ae0d .username__0b0e7::after {
+content: "wrote:"
+}
+.message_ccca67:has(.edited_b20dd9) .contents_d3ae0d .username__0b0e7::after {
+content: "wrote and edited:";
+}
+.message_ccca67:has(.mediaAttachmentsContainer__242e2, .embed_cc6dae) .contents_d3ae0d .username__0b0e7::after {
+content: "sent attachment(s):"
+}
+.message_ccca67:has(.stickerAsset_ab864f) .contents_d3ae0d .username__0b0e7::after {
+content: "sent a sticker:"
+}
+.message_ccca67:has(.emoji.jumboable) .contents_d3ae0d .username__0b0e7::after {
+content: "sent emoji(s):"
+}
+.hasReply__602e2 .contents_d3ae0d .username__0b0e7::after {
+content: "replied:"
+}
+.mentioned_fa6fd2 .contents_d3ae0d .username__0b0e7::after {
+content: "mentioned:"
+}
+
