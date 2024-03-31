@@ -1,11 +1,11 @@
 @import "quick.css";
 
+@import "other/3rdParty.css";
+
 @import "required/AcrylicPopups.theme.css";
 @import "required/Material-Discord.theme.css";
 @import "required/RadialStatus.theme.css";
 @import "required/SettingsModal.theme.css";
-
-@import "other/3rdParty.css";
 
 @import "SEELE1360/comboBubbles.css";
 @import "SEELE1360/timestampBubbles.css";
