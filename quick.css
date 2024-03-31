@@ -106,3 +106,45 @@ em .emoji {
 .reaction_fef95b[style*="background"] {
     pointer-events: none;
 }
+
+/* Realistic self roles */
+.overlayBackground__2666e code.inline {
+    font-family: var(--font-primary);
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    background: var(--profile-role-pill-background-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 22px;
+    margin: 0 4px 4px 0;
+    padding: 4px;
+    padding-right: 8px;
+    display: inline-flex;
+    line-height: 16px;
+    color: var(--text-normal);
+}
+.overlayBackground__2666e code.inline::before {
+    content: "";
+    margin: 0 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background-color: var(--brand-500);
+}
+.userProfileInnerThemedPremiumWithoutBanner__3705a .overlayBackground__2666e code.inline {
+    border: 1px solid var(--profile-role-pill-border-color);
+}
+
+/* Moves message bar when window is too small */
+.chatContent_f087cb {
+    container-type: inline-size;
+    container-name: chat;
+}
+
+@container chat (max-width: 500px) {
+    .chatContent_f087cb .buttons__7ecff {
+        display: none;
+    }
+}
+

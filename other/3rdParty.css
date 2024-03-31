@@ -9,3 +9,6 @@
 
 /* Adds icons to the settings */
 @import url("https://minidiscordthemes.github.io/SettingsIcons/SettingsIcons.theme.css");
+
+/* Minimal theme for plugin cards */
+@import url("https://minidiscordthemes.github.io/MinimalAddonCards/MinimalAddonCards.theme.css");
