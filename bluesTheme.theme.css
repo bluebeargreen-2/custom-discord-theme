@@ -8,15 +8,15 @@
  * @source https://github.com/bluebeargreen-2/custom-discord-theme/blob/main/import.css
  */
 
-@import "other/quick.css";
+@import "required/quick.css";
 
-@import "other/3rdParty.css";
+@import "required/3rdParty.css";
 
-@import "required/AcrylicPopups.css";
-@import "required/Material-Discord.css";
+@import "SEELE1360/staffTags.css";
+@import "SEELE1360/username.css";
+
 @import "required/RadialStatus.css";
 @import "required/SettingsModal.css";
 
-@import "SEELE1360/comboBubbles.css";
-@import "SEELE1360/timestampBubbles.css";
-
+/* Change this to whatever theme you want */
+@import "themes/Material-Discord.theme.css";

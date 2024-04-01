@@ -10,16 +10,15 @@
  * @invite jzJkA6Z
  */
 
-
-@import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css);
+@import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css");
 
 /* Material You addon */
-@import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/addons/material-you/source.css);
+@import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/addons/material-you/source.css");
 
 :root {
-	--accent-hue: 7.59;
-	--accent-saturation: 71.9%;
-	--accent-lightness: 76.27%;
+	--accent-hue: 345;
+	--accent-saturation: 96%;
+	--accent-lightness: 76%;
 	--accent-text-color: #fff;
 	--accent-button-action: #fff; /*	-	*/
 
@@ -38,5 +37,4 @@
 	--popout-radius-big: 18px;
 
 	--app-font: "Comic Sans MS";
-
 }
