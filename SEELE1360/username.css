@@ -13,15 +13,15 @@
 }
 
 /* Username */
-.cozy_f5c119 .header__39b23 {
+.cozy_ec86aa .header_ec86aa {
     margin-bottom: 4px;
 }
 
-.contents_f41bb2 .username_d30d99,
-.base__512ed .text_ca54e9 strong,
-.name__4c9aa,
-.repliedMessage_e2bf4a > .username_d30d99,
-.member_aa4760 .username_d272d6 {
+.contents_ec86aa .username_ec86aa,
+.base_d7ebeb .text_d7ebeb strong,
+.name_b11c5e,
+.repliedMessage_ec86aa > .username_ec86aa,
+.member_a31c43 .username_d272d6 {
     background: color-mix(in srgb, currentColor 25%, rgba(0, 0, 0, 0.25));
     text-shadow: 0 0 5px color-mix(in srgb, currentColor 25%, #000);
     margin-right: 4px;
@@ -29,7 +29,7 @@
     border-radius: 4px;
 }
 
-.username_d30d99::after {
+.username_ec86aa::after {
     position: relative;
     margin: 0 0 0 8px;
     color: inherit;
@@ -37,6 +37,6 @@
 }
 
 /* Prevent light mode from making whitenames black (visibility) */
-.username_d30d99:not([style]) {
+.username_ec86aa:not([style]) {
     color: var(--brand-experiment-100);
 }

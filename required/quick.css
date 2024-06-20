@@ -1,31 +1,31 @@
 
 /* NUKES ANIMATIONS */
-#app-mount .baseLayer__2b890 {
+#app-mount .baseLayer_d4b6c5 {
     opacity: 1 !important;
     transform: scale(1) !important;
 }
-.baseLayer__2b890[aria-hidden="true"] {
+.baseLayer_d4b6c5[aria-hidden="true"] {
     pointer-events: none;
 }
-.standardSidebarView__12528 {
+.standardSidebarView_c25c6d {
     opacity: 1 !important;
 }
-.layer_f7d46a + .layer_f7d46a {
+.layer_d4b6c5 + .layer_d4b6c5 {
     opacity: 1 !important;
     transform: unset !important;
 }
-.layer_f7d46a[aria-hidden="false"] + .layer_f7d46a[aria-hidden="false"] {
+.layer_d4b6c5[aria-hidden="false"] + .layer_d4b6c5[aria-hidden="false"] {
     display: none;
 }
-.baseLayer__2b890[aria-hidden="true"] {
+.baseLayer_d4b6c5[aria-hidden="true"] {
     pointer-events: none;
 }
-.layers__1c917>.layer_f7d46a.animating_b7d085 {
+.layers_d4b6c5>.layer_d4b6c5.animating_d4b6c5 {
     will-change: unset !important;
 }
 
 /* If too many badges, extends down the bar */
-.profileBadges__1f2ab.profileBadges__1f2ab {
+.profileBadges_f89da9.profileBadges_f89da9 {
     flex: none;
 }
 
@@ -40,26 +40,26 @@ em .emoji {
 }
 
 /* Shows where the markdown masked link goes */
-.anchor_c8ddc0[title$=")"]::after {
+.anchor_af404b[title$=")"]::after {
     font-size: 0.7rem;
     content: " (" attr(href) ")";
     filter: grayscale(0.4);
 }
 
 /* Moves message bar when window is too small */
-.chatContent_f087cb {
+.chatContent_a7d72e {
     container-type: inline-size;
     container-name: chat;
 }
 
 @container chat (max-width: 500px) {
-    .chatContent_f087cb .buttons__7ecff {
+    .chatContent_a7d72e .buttons_d0696b {
         display: none;
     }
 }
 
 /* removes nitro on super reactions */
-.reaction__4a43f[style*="background"] {
+.reaction_ec6b19[style*="background"] {
     pointer-events: none;
 }
 
@@ -81,9 +81,9 @@ img[src="/assets/5cdb518bb425d85a0f51.svg"] {
     margin: 0;
     width: fit-content
 }
-[class^=accountProfilePopoutWrapper] .section__62b44,
-.userPopoutInner_e90432:has(#account) > *:not(:has(#account)),
-.userPopoutOverlayBackground_bf6444:has(#account) > *:not(#account) {
+[class^=accountProfilePopoutWrapper] .section_d7a21f,
+.userPopoutInner_c69a7b:has(#account) > *:not(:has(#account)),
+.userPopoutOverlayBackground_c69a7b:has(#account) > *:not(#account) {
     display: none;
 }
 

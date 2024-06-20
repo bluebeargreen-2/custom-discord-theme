@@ -1,14 +1,14 @@
 /* Modal Settings Window */
-.standardSidebarView__12528
- { top: 0 !important; }
-.layer_f7d46a + .layer_f7d46a
- { border-radius: 10px !important;
-   box-shadow: 5px 5px 25px black;
-   border: 1px solid var(--border-strong);
-   width: 1100px !important;
-   height: 80vh !important;
-   margin: auto !important;
-   padding: 0 !important; }
-#app-mount .baseLayer__2b890 /*keep view under settings*/
- { opacity: 1 !important;
-   transform: unset !important; }
+.standardSidebarView_c25c6d
+{ top: 0 !important; }
+.layer_d4b6c5 + .layer_d4b6c5
+{ border-radius: 10px !important;
+    box-shadow: 5px 5px 25px black;
+    border: 1px solid var(--border-strong);
+    width: 1100px !important;
+    height: 80vh !important;
+    margin: auto !important;
+    padding: 0 !important; }
+#app-mount .baseLayer_d4b6c5 /*keep view under settings*/
+{ opacity: 1 !important;
+    transform: unset !important; }
