@@ -88,7 +88,7 @@ img[src="/assets/5cdb518bb425d85a0f51.svg"] {
 }
 
 /* Fixes problem with images being zoomed in */
-[class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
+/*[class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }*/
 
 :root {
     --font-primary: Comic Sans MS, Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
